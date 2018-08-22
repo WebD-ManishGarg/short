@@ -5,6 +5,6 @@ app.use(express.static(__dirname + '/public'));
 app.get("/",function(req,res){
   res.render("index");
 });
-app.listen(3000,function(err,rak){
+app.listen("https://git.heroku.com/safe-reef-82060.git",function(err,rak){
   console.log("Server is started");
 });
